@@ -1,0 +1,60 @@
+/* chanly touch */
+.img{
+    width: 100%;
+    height: 300px;
+    background: url(../image/11.png);
+    opacity: 0.5;
+    text-align: center;
+}
+
+.text{
+    text-align: center;
+    font-weight: 100px;
+    color: blue;
+    font-size: 30px;
+}
+/* style form */
+.contaner{
+    width: 90%;
+    margin: 0 auto;   
+}
+.row-input{
+    display: flex;
+}
+.col{
+    width: 45%;
+    height: 400px;
+    margin-left: 45px;
+    margin-top: 50px;
+   
+}
+.col:nth-child(2){
+    box-shadow: 10px 5px 10px rgb(168, 163, 163);
+}
+input{
+    width: 95%;
+    padding: 15px;
+    margin-top: 20px;
+}
+textarea{
+    width: 96%;
+    margin-top: 20px;
+    padding: 10px;
+}
+button{
+    margin-top: 10px;
+    float: right;
+    padding: 10px;
+    border: none;
+    outline: none;
+    background: orange;
+    color: #fff;
+    box-shadow: 10px 5px 10px rgb(168, 163, 163);
+    cursor: pointer;
+    border-radius: 5px;
+}
+.p{
+    text-align: center;
+    margin-top: 30px;
+}
+/* end style form */

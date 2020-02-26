@@ -1,0 +1,66 @@
+  /* style evening  */
+  /* khel vuthy */
+body {
+    font-family:sans-serif;
+}
+h2 {
+    font-size: 35px;
+    text-align: center;
+    width:100%;
+    height: 150px;
+    box-shadow: 0 0 30px rgb(185, 180, 180);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    color:red;
+}
+h4{
+    float: left;
+    display: flex;
+}
+.container-evening{
+    width:90%;
+    margin: 0 auto;
+}
+.row-evening{
+    display: flex;
+}
+.row-one{
+    display: flex;
+}
+.col-4 {
+    height: 100%;
+    width:50%;
+    margin-left: 10px;
+}
+.col-2{
+    width:100%;
+    /* background: #fff; */
+    padding: 10px;
+    margin-bottom: 50px;
+}
+.col-2:nth-child(1){
+    border-radius: 20px;
+    box-shadow: 0 0 25px gray;
+}
+.col-2:nth-child(1):hover {
+    transition: transform .2s;
+    transform: scale(1.2);
+}
+button{
+    margin-top:90px;
+    padding:10px;
+    border:none;
+    background: orange;
+    width:70%;
+    font-size: 15px;
+    border-radius:10px;
+    border:none;
+    outline: none;
+    cursor: pointer;
+}
+button:hover{
+    transition: transform .2s;
+    transform: scale(1.2);
+}

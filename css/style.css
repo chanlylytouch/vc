@@ -1,0 +1,132 @@
+/* chanly touch */
+body{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif; 
+    background: #fff; 
+}
+
+/* background style */
+/* .background{
+    width:10%;
+    height: 150px;
+    background: #fff;
+}
+
+.background img{
+    background: #fff;
+    width: 150px;
+} */
+.background {
+    width: 90%;
+  
+}
+.row-bg{
+    display: flex;
+}
+.image-bg{
+    width: 45%;
+    height: 200px;
+}
+.banner{
+    width: 100%;
+    margin-left: 200px;
+}
+/* end background style */
+
+/* sart menu and sub menu */
+.menu {
+    background-color: orange;
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;   
+}
+li a{   
+    background-color:orange;
+    color: white;
+    display: block;
+    padding: 20px;
+    text-decoration: none;
+}   
+li a:hover {
+    background-color: lighten(gray, 10%);
+}
+li {
+    display: block;
+    position: relative;
+}
+ul li:nth-child(4){
+    float: right;
+}
+.sub-menu {
+    clip: rect(1px, 1px, 1px, 1px);
+    opacity: 0.1;
+    transition: transform 0.1s cubic-bezier(0.2, 0, 0.2, 1), 
+    opacity 0.2s cubic-bezier(0.2, 0, 0.2, 1);
+    transform: translateY(-10px) scaleY(0.5);
+    transform-origin: top;
+    box-shadow: 5px 5px 5px rgba(black, 0.3);
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    top: 100%;
+    width: 10em;
+    z-index: 999;
+}
+.sub-menu li:hover{
+    box-shadow: 10px 10px 10px rgb(214, 205, 193);
+    border:2px solid rgb(250, 245, 243);
+}
+.menu  li:hover  .sub-menu {
+    clip: auto;
+    opacity: 1;
+    transform: translateY(0) scaleY(1);
+}
+.menu ul .sub-menu:hover{
+    box-shadow: 10px 10 10px black;
+    border:solid red;
+}
+/* end menu and sub menu */
+
+/* style footer */
+footer {
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    height: 50px;  
+}
+
+.container-footer{
+    background: orange;
+    color: #fff;
+    width: 100%;
+    margin-top: 750px;
+}
+.row{
+    display: flex;
+}
+.col-6{
+    width: 45%;
+    height: 200px;
+    margin-left: 30px; 
+    margin-top: 30px; 
+}
+.col-3{
+    width: 45%;
+    height: 100px;
+    margin-left: 30px;
+    margin-bottom: 20px;
+}
+img {
+    width: 200px;
+}
+.col-3 img{
+    width: 50px;
+    margin-left: 10px;
+    text-align: center;
+    border-radius: 10px;
+}
+/* end style footer */
+

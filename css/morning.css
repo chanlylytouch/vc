@@ -1,0 +1,193 @@
+/* by Sreyta SEAN */
+
+/* body style */
+body {
+    margin: 0;
+    background: #fff;
+    font-family: sans-serif;
+}
+/* container style */
+.container-morning{
+    width: 90%;
+    margin: 0 auto;
+    z-index: -1;
+}
+h1 {
+    width: 100%;
+    height: 150px;
+    background: #fff;
+    color: #ff005f;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    box-shadow: 0 0 15px gray;
+    font-size: 35px;
+}
+.row {
+    width: 100%;
+    display: flex;
+
+}
+h2 {
+    color: #ff005f;
+    text-align: center;
+}
+/* Pork Rice style */
+.morning-food {
+    width: 50%;
+    height: 300px;
+    background: #f3f3f3;
+    margin-left: 20px;
+}
+.morning-food .row .morning-food {
+    width: 45.1%;
+    height: 250px;
+    margin-top: 25px;
+}
+.pork-rice:nth-child(1){
+    background-image: url(../image/Pork\ Rice.jpg);
+    background-size: cover;
+    box-shadow: 0 0 15px gray;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.pork-rice:nth-child(2) {
+    font-size: 20px;
+}
+.pork-rice:nth-child(2) button {
+    border:none;
+    padding: 10px;
+    margin-top: 30px;
+    color: #fff;
+    background: #ff005f;
+    margin-top: 32px;
+    cursor: pointer;
+}
+
+/* Noodle style */
+.morning-food {
+    width: 50%;
+    height: 300px;
+    background: #f3f3f3;
+    margin-left: 20px;
+}
+.morning-food .row .morning-food {
+    width: 45.1%;
+    height: 250px;
+    margin-top: 25px;
+}
+.noodle:nth-child(1){
+    background-image: url(../image/Noodle.jpg);
+    background-size: cover;
+    box-shadow: 0 0 15px gray;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.noodle:nth-child(2) {
+    font-size: 20px;
+  
+}
+.noodle:nth-child(2) button {
+    border:none;
+    padding: 10px;
+    margin-top: 30px;
+    color: #fff;
+    background: #ff005f;
+    margin-top: 60px;
+    cursor: pointer;
+}
+
+/* BBQ Rice style */
+.morning-food {
+    width: 50%;
+    height: 300px;
+    background: #f3f3f3;
+    margin-left: 20px;
+}
+.morning-food .row .morning-food {
+    width: 45.1%;
+    height: 250px;
+    margin-top: 25px;
+}
+.BBQ-rice:nth-child(1){
+    background-image: url(../image/BBQ\ Rice.jpg);
+    background-size: cover;
+    box-shadow: 0 0 15px gray;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.BBQ-rice:nth-child(2) {
+    font-size: 20px;
+}
+.BBQ-rice:nth-child(2) button {
+    border:none;
+    padding: 10px;
+    margin-top: 30px;
+    color: #fff;
+    background: #ff005f;
+    margin-top: 60px;
+    cursor: pointer;
+}
+
+/* Fired Rice style */
+.morning-food {
+    width: 50%;
+    height: 300px;
+    background: #f3f3f3;
+    margin-left: 20px;
+}
+.morning-food .row .morning-food {
+    width: 45.1%;
+    height: 250px;
+    margin-top: 25px;
+}
+.fired-rice:nth-child(1){
+    background-image: url(../image/Fired\ Rice.jpg);
+    background-size: cover;
+    box-shadow: 0 0 15px gray;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.fired-rice:nth-child(2) {
+    font-size: 20px;
+    
+}
+.fired-rice:nth-child(2) button {
+    border:none;
+    padding: 10px;
+    margin-top: 30px;
+    color: #fff;
+    background: #ff005f;
+    margin-top: 60px;
+    cursor: pointer;
+}
+
+/* start overly style */
+.overlay {
+    position: absolute;
+    height: 260px;
+    width: 20%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    color: #f3f3f3;
+    opacity: 0;
+    transition: 0.5s;
+    background: orange;
+    border-radius: 20px;
+}
+.overlay:hover {
+    margin-top: -5.6%;
+    opacity: 1;    
+}
+.container-footer{
+    background: orange;
+    color: #fff;
+    width: 100%;
+    margin-top: 45%;
+}
+
